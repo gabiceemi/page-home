@@ -6,6 +6,7 @@ import Tutorial from './src/pages/Tutorial';
 import Login from './src/pages/Login';
 import Home from './src/pages/Home';
 import Badges from './src/pages/Badges';
+import Read from './src/pages/Read';
 
 const { Navigator, Screen } = createStackNavigator();
 
@@ -16,6 +17,7 @@ export const AppNavigator = () => (
       <Screen name='Login' component={Login}/>
       <Screen name='Home' component={Home}/>
       <Screen name='Badges' component={Badges}/>
+      <Screen name='Read' component={Read}/>
     </Navigator>
   </NavigationContainer>
 );
