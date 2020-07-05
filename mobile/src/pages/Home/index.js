@@ -80,7 +80,7 @@ export default function Home() {
           </View>
           <View style={styles.containerArticles}>
             <Text style={styles.titleText}>Artigo da Semana</Text>
-            <Image style={{ width:400, height: 200, marginTop: 10, marginLeft: -13, borderRadius:  }} source={require('../../../assets/Home/plants.png')} />
+            <Image style={{ width:400, height: 200, marginTop: 10, marginLeft: -13 }} source={require('../../../assets/Home/plants.png')} />
             <View style={{ height: 80, width: 355, borderRadius: 5, position: 'absolute', top: 165, left: 10, right: 0, bottom: 0, justifyContent: 'center', backgroundColor:'#000', opacity: 0.6}}/>
               <Text style={{position: 'absolute', top: 185, left: 25, right: 0, bottom: 0, color:'#FFF', fontFamily: 'Poppins_100Thin'}}>UX Collective</Text>
               <Text style={{position: 'absolute', top: 200, left: 25, right: 0, bottom: 0, color:'#FFF', fontFamily: 'Poppins_600SemiBold'}}>3 papéis que designers podem desempenhar</Text>

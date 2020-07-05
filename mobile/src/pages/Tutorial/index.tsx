@@ -58,12 +58,12 @@ const Tutorial: React.FC = ({ navigation }) => {
             <Text style={styles.desc}>Within non-expo environment, we also need to complete installation for iOS by linking react-native-svg.</Text>
           </View>
           <View>
-          <Image style={styles.image} source={require('../../../assets/Tutorial/1.png')} />
+          <Image style={styles.image} source={require('../../../assets/Tutorial/2.png')} />
             <Text style={styles.title}>Página 2</Text>
             <Text style={styles.desc}>Within non-expo environment, we also need to complete installation for iOS by linking react-native-svg.</Text>
           </View>
           <View>
-          <Image style={styles.image} source={require('../../../assets/Tutorial/1.png')} />
+          <Image style={styles.image} source={require('../../../assets/Tutorial/3.png')} />
             <Text style={styles.title}>Página 3</Text>
             <Text style={styles.desc}>Within non-expo environment, we also need to complete installation for iOS by linking react-native-svg.</Text>
           </View>

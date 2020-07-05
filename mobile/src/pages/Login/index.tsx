@@ -11,7 +11,7 @@ const Login: React.FC = ({ navigation }) => {
   };
 
   const navigateToHome = () => {
-    navigation.navigate("Home");
+    navigation.navigate("Badges");
  }
 
   const BackIcon = (props) => (
